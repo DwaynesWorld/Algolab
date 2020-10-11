@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340D917D47B45CACB604E582 /* Pods_AlgolabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF93AD849E36EBD044193CCF /* Pods_AlgolabTests.framework */; };
+		477DEFD0EA58FFEBB9EDB7E9 /* Pods_Algolab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5887F7E6F2EDB7D1A718038 /* Pods_Algolab.framework */; };
+		6801801F24958ED00029ABFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801801E24958ED00029ABFA /* AppDelegate.swift */; };
+		6801802124958ED00029ABFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801802024958ED00029ABFA /* SceneDelegate.swift */; };
+		6801802324958ED00029ABFA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801802224958ED00029ABFA /* MainView.swift */; };
+		6801802524958ED20029ABFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6801802424958ED20029ABFA /* Assets.xcassets */; };
+		6801802824958ED20029ABFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6801802724958ED20029ABFA /* Preview Assets.xcassets */; };
+		6801802B24958ED20029ABFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6801802924958ED20029ABFA /* LaunchScreen.storyboard */; };
+		6801803624958ED30029ABFA /* AlgolabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801803524958ED30029ABFA /* AlgolabTests.swift */; };
+		6801804124958ED30029ABFA /* AlgolabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801804024958ED30029ABFA /* AlgolabUITests.swift */; };
+		6801804F24958EE70029ABFA /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801804E24958EE70029ABFA /* AppSettings.swift */; };
+		6801805124958F080029ABFA /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801805024958F080029ABFA /* Secrets.swift */; };
+		6843EF8E249EBFB700EB808E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EF8D249EBFB700EB808E /* View+Extensions.swift */; };
+		6843EF9B249FE46200EB808E /* AccountAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EF9A249FE46200EB808E /* AccountAPI.swift */; };
+		6843EF9D249FE68400EB808E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EF9C249FE68400EB808E /* Constants.swift */; };
+		6843EF9F249FE80200EB808E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EF9E249FE80200EB808E /* String+Extensions.swift */; };
+		6843EFA3249FE84600EB808E /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFA2249FE84600EB808E /* RoundedCorner.swift */; };
+		6843EFA6249FEEF700EB808E /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFA5249FEEF700EB808E /* Account.swift */; };
+		6843EFA9249FF3AE00EB808E /* AlpacaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFA8249FF3AE00EB808E /* AlpacaClient.swift */; };
+		6843EFAB249FFE2200EB808E /* AlpacaNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFAA249FFE2200EB808E /* AlpacaNetworkClient.swift */; };
+		6843EFAD249FFFC800EB808E /* TargetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFAC249FFFC800EB808E /* TargetProvider.swift */; };
+		6843EFAF24A002B400EB808E /* MoyaHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFAE24A002B400EB808E /* MoyaHelpers.swift */; };
+		6843EFB224A010DD00EB808E /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFB124A010DD00EB808E /* Injected.swift */; };
+		6843EFB424A011A600EB808E /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFB324A011A600EB808E /* AppContainer.swift */; };
+		6843EFB724A0146400EB808E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFB624A0146400EB808E /* HomeViewModel.swift */; };
+		6843EFBD24A0212800EB808E /* OptionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFBC24A0212800EB808E /* OptionalView.swift */; };
+		6843EFBF24A41DB100EB808E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843EFBE24A41DB100EB808E /* Date+Extensions.swift */; };
+		689FB99A249ACE4E0018E9DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FB999249ACE4E0018E9DB /* HomeView.swift */; };
+		68B3250A24A54BAC00B90F24 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3250924A54BAC00B90F24 /* LottieView.swift */; };
+		68B3250E24A550A400B90F24 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 68B3250C24A550A400B90F24 /* loading.json */; };
+		68B3250F24A550A400B90F24 /* loading2.json in Resources */ = {isa = PBXBuildFile; fileRef = 68B3250D24A550A400B90F24 /* loading2.json */; };
+		68B3251124A552CF00B90F24 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3251024A552CF00B90F24 /* LoadingView.swift */; };
+		FCBE812B7C7A746ABE98037B /* Pods_Algolab_AlgolabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB635C0E81DE64C108678CC /* Pods_Algolab_AlgolabUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6801803224958ED30029ABFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6801801324958ED00029ABFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6801801A24958ED00029ABFA;
+			remoteInfo = Algolab;
+		};
+		6801803D24958ED30029ABFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6801801324958ED00029ABFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6801801A24958ED00029ABFA;
+			remoteInfo = Algolab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D82ED5FF02A1DB17E5D2EC6 /* Pods-AlgolabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgolabTests.debug.xcconfig"; path = "Target Support Files/Pods-AlgolabTests/Pods-AlgolabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6801801B24958ED00029ABFA /* Algolab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algolab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6801801E24958ED00029ABFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6801802024958ED00029ABFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6801802224958ED00029ABFA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6801802424958ED20029ABFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6801802724958ED20029ABFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6801802A24958ED20029ABFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6801802C24958ED20029ABFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6801803124958ED30029ABFA /* AlgolabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgolabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6801803524958ED30029ABFA /* AlgolabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgolabTests.swift; sourceTree = "<group>"; };
+		6801803724958ED30029ABFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6801803C24958ED30029ABFA /* AlgolabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgolabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6801804024958ED30029ABFA /* AlgolabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgolabUITests.swift; sourceTree = "<group>"; };
+		6801804224958ED30029ABFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6801804E24958EE70029ABFA /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		6801805024958F080029ABFA /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = ../Secrets.swift; sourceTree = "<group>"; };
+		6843EF8D249EBFB700EB808E /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		6843EF9A249FE46200EB808E /* AccountAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAPI.swift; sourceTree = "<group>"; };
+		6843EF9C249FE68400EB808E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6843EF9E249FE80200EB808E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		6843EFA2249FE84600EB808E /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		6843EFA5249FEEF700EB808E /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		6843EFA8249FF3AE00EB808E /* AlpacaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlpacaClient.swift; sourceTree = "<group>"; };
+		6843EFAA249FFE2200EB808E /* AlpacaNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlpacaNetworkClient.swift; sourceTree = "<group>"; };
+		6843EFAC249FFFC800EB808E /* TargetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetProvider.swift; sourceTree = "<group>"; };
+		6843EFAE24A002B400EB808E /* MoyaHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaHelpers.swift; sourceTree = "<group>"; };
+		6843EFB124A010DD00EB808E /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
+		6843EFB324A011A600EB808E /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		6843EFB624A0146400EB808E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6843EFBC24A0212800EB808E /* OptionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalView.swift; sourceTree = "<group>"; };
+		6843EFBE24A41DB100EB808E /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		689FB999249ACE4E0018E9DB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		68B3250924A54BAC00B90F24 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		68B3250C24A550A400B90F24 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		68B3250D24A550A400B90F24 /* loading2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading2.json; sourceTree = "<group>"; };
+		68B3251024A552CF00B90F24 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		72D1C921917C1153AA70CA4D /* Pods-Algolab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algolab.release.xcconfig"; path = "Target Support Files/Pods-Algolab/Pods-Algolab.release.xcconfig"; sourceTree = "<group>"; };
+		7CB635C0E81DE64C108678CC /* Pods_Algolab_AlgolabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algolab_AlgolabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9642DB1984A87E274B0BB614 /* Pods-AlgolabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgolabTests.release.xcconfig"; path = "Target Support Files/Pods-AlgolabTests/Pods-AlgolabTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB4789ED6E725B52F177C334 /* Pods-Algolab-AlgolabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algolab-AlgolabUITests.debug.xcconfig"; path = "Target Support Files/Pods-Algolab-AlgolabUITests/Pods-Algolab-AlgolabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3B6B09AB6A7E40690F7CEC1 /* Pods-Algolab-AlgolabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algolab-AlgolabUITests.release.xcconfig"; path = "Target Support Files/Pods-Algolab-AlgolabUITests/Pods-Algolab-AlgolabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C641823D9C33955E1F804622 /* Pods-Algolab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algolab.debug.xcconfig"; path = "Target Support Files/Pods-Algolab/Pods-Algolab.debug.xcconfig"; sourceTree = "<group>"; };
+		CF93AD849E36EBD044193CCF /* Pods_AlgolabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgolabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5887F7E6F2EDB7D1A718038 /* Pods_Algolab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algolab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6801801824958ED00029ABFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477DEFD0EA58FFEBB9EDB7E9 /* Pods_Algolab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6801802E24958ED30029ABFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340D917D47B45CACB604E582 /* Pods_AlgolabTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6801803924958ED30029ABFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBE812B7C7A746ABE98037B /* Pods_Algolab_AlgolabUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43500EB71CADDC77505CC756 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C641823D9C33955E1F804622 /* Pods-Algolab.debug.xcconfig */,
+				72D1C921917C1153AA70CA4D /* Pods-Algolab.release.xcconfig */,
+				AB4789ED6E725B52F177C334 /* Pods-Algolab-AlgolabUITests.debug.xcconfig */,
+				B3B6B09AB6A7E40690F7CEC1 /* Pods-Algolab-AlgolabUITests.release.xcconfig */,
+				0D82ED5FF02A1DB17E5D2EC6 /* Pods-AlgolabTests.debug.xcconfig */,
+				9642DB1984A87E274B0BB614 /* Pods-AlgolabTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6801801224958ED00029ABFA = {
+			isa = PBXGroup;
+			children = (
+				6801801D24958ED00029ABFA /* Algolab */,
+				6801803424958ED30029ABFA /* AlgolabTests */,
+				6801803F24958ED30029ABFA /* AlgolabUITests */,
+				6801801C24958ED00029ABFA /* Products */,
+				43500EB71CADDC77505CC756 /* Pods */,
+				96ACD567CD630002C8F39E28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6801801C24958ED00029ABFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6801801B24958ED00029ABFA /* Algolab.app */,
+				6801803124958ED30029ABFA /* AlgolabTests.xctest */,
+				6801803C24958ED30029ABFA /* AlgolabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6801801D24958ED00029ABFA /* Algolab */ = {
+			isa = PBXGroup;
+			children = (
+				6843EF98249FE27B00EB808E /* Models */,
+				680180DE249809610029ABFA /* Views */,
+				6843EFB024A010CD00EB808E /* Infrastructure */,
+				6843EFA0249FE82000EB808E /* Common */,
+				6843EF8C249EBF7A00EB808E /* Extensions */,
+				6843EF97249FE1B000EB808E /* Networking */,
+				680180DF249809870029ABFA /* Resources */,
+				680180DD249808EE0029ABFA /* System */,
+			);
+			path = Algolab;
+			sourceTree = "<group>";
+		};
+		6801803424958ED30029ABFA /* AlgolabTests */ = {
+			isa = PBXGroup;
+			children = (
+				6801803524958ED30029ABFA /* AlgolabTests.swift */,
+				6801803724958ED30029ABFA /* Info.plist */,
+			);
+			path = AlgolabTests;
+			sourceTree = "<group>";
+		};
+		6801803F24958ED30029ABFA /* AlgolabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6801804024958ED30029ABFA /* AlgolabUITests.swift */,
+				6801804224958ED30029ABFA /* Info.plist */,
+			);
+			path = AlgolabUITests;
+			sourceTree = "<group>";
+		};
+		680180DD249808EE0029ABFA /* System */ = {
+			isa = PBXGroup;
+			children = (
+				6801805024958F080029ABFA /* Secrets.swift */,
+				6801802024958ED00029ABFA /* SceneDelegate.swift */,
+				6801801E24958ED00029ABFA /* AppDelegate.swift */,
+				6801804E24958EE70029ABFA /* AppSettings.swift */,
+				6843EF9C249FE68400EB808E /* Constants.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		680180DE249809610029ABFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				689FB998249ACE360018E9DB /* Home */,
+				6801802224958ED00029ABFA /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		680180DF249809870029ABFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68B3250B24A550A400B90F24 /* Animations */,
+				6801802424958ED20029ABFA /* Assets.xcassets */,
+				6801802724958ED20029ABFA /* Preview Assets.xcassets */,
+				6801802924958ED20029ABFA /* LaunchScreen.storyboard */,
+				6801802C24958ED20029ABFA /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6843EF8C249EBF7A00EB808E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6843EF8D249EBFB700EB808E /* View+Extensions.swift */,
+				6843EF9E249FE80200EB808E /* String+Extensions.swift */,
+				6843EFBE24A41DB100EB808E /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6843EF97249FE1B000EB808E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFB824A019AF00EB808E /* Clients */,
+				6843EF99249FE44800EB808E /* API */,
+				6843EFBA24A019D200EB808E /* Moya */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6843EF98249FE27B00EB808E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFB524A0145300EB808E /* ViewModels */,
+				6843EFA4249FEEEC00EB808E /* Domain */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6843EF99249FE44800EB808E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6843EF9A249FE46200EB808E /* AccountAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6843EFA0249FE82000EB808E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFBB24A020FE00EB808E /* Components */,
+				6843EFA1249FE83600EB808E /* Shapes */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6843EFA1249FE83600EB808E /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFA2249FE84600EB808E /* RoundedCorner.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		6843EFA4249FEEEC00EB808E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFA5249FEEF700EB808E /* Account.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6843EFB024A010CD00EB808E /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFB124A010DD00EB808E /* Injected.swift */,
+				6843EFB324A011A600EB808E /* AppContainer.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		6843EFB524A0145300EB808E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFB624A0146400EB808E /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6843EFB824A019AF00EB808E /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFA8249FF3AE00EB808E /* AlpacaClient.swift */,
+				6843EFAA249FFE2200EB808E /* AlpacaNetworkClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		6843EFBA24A019D200EB808E /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFAC249FFFC800EB808E /* TargetProvider.swift */,
+				6843EFAE24A002B400EB808E /* MoyaHelpers.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		6843EFBB24A020FE00EB808E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6843EFBC24A0212800EB808E /* OptionalView.swift */,
+				68B3250924A54BAC00B90F24 /* LottieView.swift */,
+				68B3251024A552CF00B90F24 /* LoadingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		689FB998249ACE360018E9DB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				689FB999249ACE4E0018E9DB /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		68B3250B24A550A400B90F24 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				68B3250C24A550A400B90F24 /* loading.json */,
+				68B3250D24A550A400B90F24 /* loading2.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		96ACD567CD630002C8F39E28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5887F7E6F2EDB7D1A718038 /* Pods_Algolab.framework */,
+				7CB635C0E81DE64C108678CC /* Pods_Algolab_AlgolabUITests.framework */,
+				CF93AD849E36EBD044193CCF /* Pods_AlgolabTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6801801A24958ED00029ABFA /* Algolab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6801804524958ED30029ABFA /* Build configuration list for PBXNativeTarget "Algolab" */;
+			buildPhases = (
+				AC20B92D34DEA6349A02AB97 /* [CP] Check Pods Manifest.lock */,
+				6801801724958ED00029ABFA /* Sources */,
+				6801801824958ED00029ABFA /* Frameworks */,
+				6801801924958ED00029ABFA /* Resources */,
+				6C551790786E9C2F2ADEB82B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algolab;
+			productName = Algolab;
+			productReference = 6801801B24958ED00029ABFA /* Algolab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6801803024958ED30029ABFA /* AlgolabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6801804824958ED30029ABFA /* Build configuration list for PBXNativeTarget "AlgolabTests" */;
+			buildPhases = (
+				F7AE4805C9625526B35225AD /* [CP] Check Pods Manifest.lock */,
+				6801802D24958ED30029ABFA /* Sources */,
+				6801802E24958ED30029ABFA /* Frameworks */,
+				6801802F24958ED30029ABFA /* Resources */,
+				4C65FEEDF7C3890EDF524B75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6801803324958ED30029ABFA /* PBXTargetDependency */,
+			);
+			name = AlgolabTests;
+			productName = AlgolabTests;
+			productReference = 6801803124958ED30029ABFA /* AlgolabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6801803B24958ED30029ABFA /* AlgolabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6801804B24958ED30029ABFA /* Build configuration list for PBXNativeTarget "AlgolabUITests" */;
+			buildPhases = (
+				E298A29CA4255DE1A39621BA /* [CP] Check Pods Manifest.lock */,
+				6801803824958ED30029ABFA /* Sources */,
+				6801803924958ED30029ABFA /* Frameworks */,
+				6801803A24958ED30029ABFA /* Resources */,
+				7D6098A4F9161BAD1A546B21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6801803E24958ED30029ABFA /* PBXTargetDependency */,
+			);
+			name = AlgolabUITests;
+			productName = AlgolabUITests;
+			productReference = 6801803C24958ED30029ABFA /* AlgolabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6801801324958ED00029ABFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Kyle Thompson";
+				TargetAttributes = {
+					6801801A24958ED00029ABFA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6801803024958ED30029ABFA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6801801A24958ED00029ABFA;
+					};
+					6801803B24958ED30029ABFA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6801801A24958ED00029ABFA;
+					};
+				};
+			};
+			buildConfigurationList = 6801801624958ED00029ABFA /* Build configuration list for PBXProject "Algolab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6801801224958ED00029ABFA;
+			productRefGroup = 6801801C24958ED00029ABFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6801801A24958ED00029ABFA /* Algolab */,
+				6801803024958ED30029ABFA /* AlgolabTests */,
+				6801803B24958ED30029ABFA /* AlgolabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6801801924958ED00029ABFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B3250F24A550A400B90F24 /* loading2.json in Resources */,
+				6801802B24958ED20029ABFA /* LaunchScreen.storyboard in Resources */,
+				6801802824958ED20029ABFA /* Preview Assets.xcassets in Resources */,
+				68B3250E24A550A400B90F24 /* loading.json in Resources */,
+				6801802524958ED20029ABFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6801802F24958ED30029ABFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6801803A24958ED30029ABFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C65FEEDF7C3890EDF524B75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlgolabTests/Pods-AlgolabTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlgolabTests/Pods-AlgolabTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgolabTests/Pods-AlgolabTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C551790786E9C2F2ADEB82B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Algolab/Pods-Algolab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Algolab/Pods-Algolab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Algolab/Pods-Algolab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D6098A4F9161BAD1A546B21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Algolab-AlgolabUITests/Pods-Algolab-AlgolabUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Algolab-AlgolabUITests/Pods-Algolab-AlgolabUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Algolab-AlgolabUITests/Pods-Algolab-AlgolabUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC20B92D34DEA6349A02AB97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Algolab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E298A29CA4255DE1A39621BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Algolab-AlgolabUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7AE4805C9625526B35225AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlgolabTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6801801724958ED00029ABFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6843EFBD24A0212800EB808E /* OptionalView.swift in Sources */,
+				6843EFBF24A41DB100EB808E /* Date+Extensions.swift in Sources */,
+				6843EFA3249FE84600EB808E /* RoundedCorner.swift in Sources */,
+				6843EFAD249FFFC800EB808E /* TargetProvider.swift in Sources */,
+				6843EFA6249FEEF700EB808E /* Account.swift in Sources */,
+				68B3251124A552CF00B90F24 /* LoadingView.swift in Sources */,
+				6843EFB724A0146400EB808E /* HomeViewModel.swift in Sources */,
+				6843EFAF24A002B400EB808E /* MoyaHelpers.swift in Sources */,
+				6843EF9B249FE46200EB808E /* AccountAPI.swift in Sources */,
+				6843EFB424A011A600EB808E /* AppContainer.swift in Sources */,
+				6843EF9F249FE80200EB808E /* String+Extensions.swift in Sources */,
+				6843EF8E249EBFB700EB808E /* View+Extensions.swift in Sources */,
+				6801801F24958ED00029ABFA /* AppDelegate.swift in Sources */,
+				6801805124958F080029ABFA /* Secrets.swift in Sources */,
+				6843EF9D249FE68400EB808E /* Constants.swift in Sources */,
+				6843EFB224A010DD00EB808E /* Injected.swift in Sources */,
+				6843EFA9249FF3AE00EB808E /* AlpacaClient.swift in Sources */,
+				6801804F24958EE70029ABFA /* AppSettings.swift in Sources */,
+				6843EFAB249FFE2200EB808E /* AlpacaNetworkClient.swift in Sources */,
+				689FB99A249ACE4E0018E9DB /* HomeView.swift in Sources */,
+				68B3250A24A54BAC00B90F24 /* LottieView.swift in Sources */,
+				6801802124958ED00029ABFA /* SceneDelegate.swift in Sources */,
+				6801802324958ED00029ABFA /* MainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6801802D24958ED30029ABFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6801803624958ED30029ABFA /* AlgolabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6801803824958ED30029ABFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6801804124958ED30029ABFA /* AlgolabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6801803324958ED30029ABFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6801801A24958ED00029ABFA /* Algolab */;
+			targetProxy = 6801803224958ED30029ABFA /* PBXContainerItemProxy */;
+		};
+		6801803E24958ED30029ABFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6801801A24958ED00029ABFA /* Algolab */;
+			targetProxy = 6801803D24958ED30029ABFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6801802924958ED20029ABFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6801802A24958ED20029ABFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6801804324958ED30029ABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6801804424958ED30029ABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6801804624958ED30029ABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C641823D9C33955E1F804622 /* Pods-Algolab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Algolab/Resources\"";
+				DEVELOPMENT_TEAM = 5B2H3TP95N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Algolab/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kthompson.algolab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6801804724958ED30029ABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D1C921917C1153AA70CA4D /* Pods-Algolab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Algolab/Resources\"";
+				DEVELOPMENT_TEAM = 5B2H3TP95N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Algolab/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kthompson.algolab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6801804924958ED30029ABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D82ED5FF02A1DB17E5D2EC6 /* Pods-AlgolabTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B2H3TP95N;
+				INFOPLIST_FILE = AlgolabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kthompson.AlgolabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algolab.app/Algolab";
+			};
+			name = Debug;
+		};
+		6801804A24958ED30029ABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9642DB1984A87E274B0BB614 /* Pods-AlgolabTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B2H3TP95N;
+				INFOPLIST_FILE = AlgolabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kthompson.AlgolabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algolab.app/Algolab";
+			};
+			name = Release;
+		};
+		6801804C24958ED30029ABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4789ED6E725B52F177C334 /* Pods-Algolab-AlgolabUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53BH995SD4;
+				INFOPLIST_FILE = AlgolabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kthompson.AlgolabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Algolab;
+			};
+			name = Debug;
+		};
+		6801804D24958ED30029ABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B6B09AB6A7E40690F7CEC1 /* Pods-Algolab-AlgolabUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53BH995SD4;
+				INFOPLIST_FILE = AlgolabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kthompson.AlgolabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Algolab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6801801624958ED00029ABFA /* Build configuration list for PBXProject "Algolab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6801804324958ED30029ABFA /* Debug */,
+				6801804424958ED30029ABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6801804524958ED30029ABFA /* Build configuration list for PBXNativeTarget "Algolab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6801804624958ED30029ABFA /* Debug */,
+				6801804724958ED30029ABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6801804824958ED30029ABFA /* Build configuration list for PBXNativeTarget "AlgolabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6801804924958ED30029ABFA /* Debug */,
+				6801804A24958ED30029ABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6801804B24958ED30029ABFA /* Build configuration list for PBXNativeTarget "AlgolabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6801804C24958ED30029ABFA /* Debug */,
+				6801804D24958ED30029ABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6801801324958ED00029ABFA /* Project object */;
+}

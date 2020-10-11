@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.2.1)
+  - lottie-ios (3.1.8)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Nimble (8.1.1)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - Swinject (2.7.1)
+
+DEPENDENCIES:
+  - lottie-ios
+  - Moya (~> 14.0)
+  - Nimble
+  - PromiseKit (~> 6.8)
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - Moya
+    - Nimble
+    - PromiseKit
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Nimble: 5f8a2fb6fa343a7242dfdd9d42f7267419d464b2
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+
+PODFILE CHECKSUM: d8367950f565fe66ffa187ffd08eed34e55fca57
+
+COCOAPODS: 1.8.4

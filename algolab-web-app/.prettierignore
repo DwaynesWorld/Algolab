@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+.next
+yarn.lock
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+public
+
+# testing
+/coverage
+/test
+
+# production
+/build
+
+# misc
+.DS_Store
+*.png
+*.json
+*.svg
+*.css
+*.gif
